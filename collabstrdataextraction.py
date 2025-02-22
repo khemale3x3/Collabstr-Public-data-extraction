@@ -149,7 +149,7 @@ def process_collabstr_profiles(input_file, output_file):
         print("✅ No new profiles to scrape. All are already processed.")
 
 # Run the scraper
-input_file = "C:\\Users\\ACER\\Downloads\\collabstr_links.xlsx"
-output_file = "C:\\Users\\ACER\\Downloads\\collabstr_results.xlsx"
+input_file = "input\\collabstr_links.xlsx"
+output_file = "output\\collabstr_results.xlsx"
 
 process_collabstr_profiles(input_file, output_file)
